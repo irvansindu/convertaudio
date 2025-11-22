@@ -1,0 +1,35 @@
+{
+  "name": "media-to-mp3-converter",
+  "version": "1.0.0",
+  "description": "Full-stack media-to-MP3 converter using Next.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "@types/fluent-ffmpeg": "^2.1.24",
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "undici": "^7.16.0",
+    "yt-dlp-wrap": "^2.3.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
